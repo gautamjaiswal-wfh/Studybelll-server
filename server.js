@@ -66,7 +66,7 @@ app.post('/send-push', async (req, res) => {
     body:    body    || 'You have a new signal!',
     icon:    icon    || '/icon-192.png',
     badge:   badge   || '/icon-192.png',
-    vibrate: vibrate || [200, 100, 200],
+    vibrate: vibrate || [800, 200, 800, 200, 1000],
     tag:     tag     || 'studybell-signal'
   });
 
